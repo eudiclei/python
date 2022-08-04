@@ -4,5 +4,5 @@ Se você tiver um clone local, poderá atualizá-lo executando os comandos a seg
 setando branch main:
 git branch -m master main
 git fetch origin
-git branch -u origin/main main
+git branch -u origin/main main ### torna a branch main como principal
 git remote set-head origin -a
