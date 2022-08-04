@@ -1,0 +1,8 @@
+
+
+Se você tiver um clone local, poderá atualizá-lo executando os comandos a seguir.
+setando branch main:
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
