@@ -5,7 +5,7 @@
 
 import qrcode
 
-meu_qrcode = qrcode.make('https://github.com/eudiclei')
+meu_qrcode = qrcode.make('https://cartilha.cert.br/livro/cartilha-seguranca-internet.pdf')
 
 meu_qrcode.save('qrcode.png')
 meu_qrcode.show()
